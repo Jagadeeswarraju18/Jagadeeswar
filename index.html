@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Developer | Interactive Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="webgl-container"></div>
+  <div class="noise-overlay"></div>
+
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <span class="loader-text" id="loader-percent">0</span>%
+      <div class="loader-bar">
+        <div class="loader-progress" id="loader-progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-brand">JAGADEESWAR</div>
+    <div class="nav-links">
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <main class="content-wrapper" id="scroll-container">
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <div class="title-wrapper"><span class="title-text">Crafting</span></div>
+          <div class="title-wrapper indent"><span class="title-text italic-accent">Digital</span></div>
+          <div class="title-wrapper"><span class="title-text">Spaces</span></div>
+        </h1>
+        <div class="hero-bottom-row">
+          <p class="hero-subtitle">
+            Exploring the limits of interactive web experiences <br/>through code, motion, and three-dimensional spaces.
+          </p>
+          <a href="#contact" class="primary-btn">Let's connect <span class="arrow">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <!-- Expanding content length to demonstrate scrolling features -->
+    <section class="spacer-section">
+        <div class="spacer-text">
+            <h2>The Process</h2>
+            <p>Every interaction is carefully measured and built with performance in mind. Bridging the gap between UI logic and sensory emotion.</p>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+      <h2 class="section-title">Selected Work <span class="year">2026</span></h2>
+      <div class="project-list">
+        <a href="https://www.tagzzs.com/" target="_blank" rel="noopener noreferrer" class="project-item">
+          <div class="project-info">
+            <span class="project-num">01</span>
+            <h3>Tagzzs</h3>
+          </div>
+          <p class="project-role">Second Brain App &bull; 480+ Users</p>
+        </a>
+        <a href="https://www.mardishub.com/" target="_blank" rel="noopener noreferrer" class="project-item">
+          <div class="project-info">
+            <span class="project-num">02</span>
+            <h3>Mardishub</h3>
+          </div>
+          <p class="project-role">Lead Gen Tool &bull; 40+ Users</p>
+        </a>
+        <a href="https://testimonialx.xyz/" target="_blank" rel="noopener noreferrer" class="project-item">
+          <div class="project-info">
+            <span class="project-num">03</span>
+            <h3>Testimonialx</h3>
+          </div>
+          <p class="project-role">Social Proof Engine &bull; 10+ Users</p>
+        </a>
+        <a href="https://www.getspendyx.com/" target="_blank" rel="noopener noreferrer" class="project-item">
+          <div class="project-info">
+            <span class="project-num">04</span>
+            <h3>Spendyx</h3>
+          </div>
+          <p class="project-role">Subscription Tracker &bull; 10+ Installs</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-title-col">
+          <h2 class="section-title">Philosophy</h2>
+        </div>
+        <div class="about-text-col">
+          <p class="large-text">
+            I believe code is a raw material, much like clay or marble. My work focuses on pulling 
+            human emotion out of logical systems, delivering experiences that don't just function—they 
+            leave a lasting impression.
+          </p>
+          <div class="skills-list">
+            <span>Three.js</span>
+            <span>GLSL Shaders</span>
+            <span>React</span>
+            <span>GSAP</span>
+            <span>Interaction Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW SECTION 5: Capabilities -->
+    <section class="capabilities" id="capabilities">
+      <h2 class="section-title">Expertise <span class="year">Core</span></h2>
+      <div class="capabilities-grid">
+        <div class="capability-card">
+          <span class="cap-num">01</span>
+          <h3>Creative Development</h3>
+          <p>Writing clean, performant, and scalable code to bring high-end designs to life. Bridging the gap between static mockups and interactive reality.</p>
+        </div>
+        <div class="capability-card">
+          <span class="cap-num">02</span>
+          <h3>Motion & WebGL</h3>
+          <p>Utilizing Three.js, raw WebGL, and custom GLSL shaders to craft fluid, physics-based, and highly immersive dimensions in the browser.</p>
+        </div>
+        <div class="capability-card">
+          <span class="cap-num">03</span>
+          <h3>Interaction Design</h3>
+          <p>Focusing on the micro-interactions, spring mechanics, and responsive feedback loops that make digital products feel truly tactile.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW SECTION 6: Recognition -->
+    <section class="awards" id="awards">
+      <h2 class="section-title">Recognition <span class="year">Global</span></h2>
+      <div class="awards-list">
+        <div class="award-item">
+          <span class="award-year">2026 // Awwwards</span>
+          <span class="award-name">Site of the Month</span>
+          <span class="award-project">Spatial Harmony</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2025 // The FWA</span>
+          <span class="award-name">FWA of the Day</span>
+          <span class="award-project">Neural Interface</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2025 // Webby Awards</span>
+          <span class="award-name">Honoree : Technical Achievement</span>
+          <span class="award-project">Ethereal Kinetics</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2024 // CSS Design Awards</span>
+          <span class="award-name">Website of the Day</span>
+          <span class="award-project">Dark Matter UI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENHANCED FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="footer-top-row">
+        <p class="footer-sub">Have a project in mind?</p>
+      </div>
+      
+      <div class="footer-massive-text">
+        <a href="mailto:hello@jdoe.com" class="massive-link">
+          LET'S <span class="italic-accent">Talk</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom-centered">
+        <div class="social-links">
+          <a href="https://x.com/Jagadeeswarrrr" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
